@@ -12,7 +12,7 @@ func quickSort(a []int, p, r int) []int {
 }
 
 // loop invariant:
-// at the beginning of each iteration of the loop of lines 21-24,
+// at the beginning of each iteration of the loop of lines 28-31,
 // for any array index k,
 //
 // 1. if p <= k <= i, then A[k] <= x. because i only increments when
